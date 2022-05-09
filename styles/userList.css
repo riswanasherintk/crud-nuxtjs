@@ -1,0 +1,66 @@
+.container {
+  width: 50%;
+  margin: auto;
+  background: #ffffff;
+}
+.header {
+  height: 70px;
+}
+.user-table {
+  font-family: "CircularXX TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 14px;
+  color: #717171;
+  width: 100%;
+}
+.table-head {
+  text-align: justify;
+}
+.user-list {
+  height: 80px;
+  left: 179px;
+  font-family: "CircularXX TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  text-align: justify;
+}
+.status {
+  display: flex;
+  margin-top: 18px;
+  flex-direction: row;
+  padding: 7px 16px;
+  width: 72px;
+  height: 26px;
+  border-radius: 36px;
+  align-items: center;
+  color: #ffffff;
+  justify-content: center;
+  cursor: pointer;
+}
+.user-data td {
+  border-bottom: 1px solid lightgray;
+  padding: 8px;
+}
+.sub-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.add-user {
+  display: flex;
+  margin-top: 18px;
+  flex-direction: row;
+  padding: 7px 16px;
+  width: 72px;
+  height: 26px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: rgba(34, 34, 34, 0.05);
+  border-radius: 48px;
+}
